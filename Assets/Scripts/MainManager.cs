@@ -30,8 +30,7 @@ public class MainManager : MonoBehaviour
         }
 
         Instance = this;
-
-        GameManager.Instance.LoadGameInfo();
+        
         BestScoreText.text = "Best Score : " + GameManager.Instance.bestName + " : " + GameManager.Instance.bestScore;
     }
 
